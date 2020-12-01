@@ -49,3 +49,11 @@ console.log (priceRef)
 
 containerRef.append(productTitleRef, descriptionRef, priceRef)
 console.log (containerRef);
+
+//добавление на страницу
+
+// document.body.appendChild (containerRef)
+
+const cardRootRef = document.querySelector('#root')
+cardRootRef.appendChild (containerRef)
+
